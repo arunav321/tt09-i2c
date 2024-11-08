@@ -26,6 +26,8 @@ module tb ();
   // Replace tt_um_example with your module name:
   tt_um_I2C usr_proj(
       // Include power ports for the Gate Level test:
+tt_um_I2C_to_SPI usr_proj(
+      // Include power ports for the Gate Level test:
 `ifdef GL_TEST
       .VPWR(1'b1),
       .VGND(1'b0),
