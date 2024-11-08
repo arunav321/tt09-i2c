@@ -40,7 +40,7 @@ pinout:
   ui[7]: ""
 
   # Outputs
- uo[0]: "sck_o"
+  uo[0]: "sck_o"
   uo[1]: "mosi_o"
   uo[2]: "i2c_data_out"
   uo[3]: "i2c_clk_out"
